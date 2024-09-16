@@ -8,13 +8,9 @@ private:
     short m_day;
     short m_month;
     short m_year;
-    bool m_valid;//Usado para verificar se a data é válida ou não
+    bool m_valid = false; /*inicialização de membro in class*/
 
 public:
-    void init() //utilizando o conceito de verdadeiro ou falso
-    {
-        m_valid = false;
-    }
 
     void change(int day, int month, int year)//verificando dados validos
     {
@@ -67,8 +63,7 @@ int main()
 {
     Date pgt;
 
-
-    pgt.init();
+    pgt.print();
     pgt.change(31,01,2100);
     pgt.print(); //chamando a função printDate
 
