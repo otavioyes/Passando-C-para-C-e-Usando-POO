@@ -5,38 +5,38 @@ struct Date //dados que serão setados
 {
 
 private:
-    short day;
-    short month;
-    short year;
-    bool valid;//Usado para verificar se a data é válida ou não
+    short m_day;
+    short m_month;
+    short m_year;
+    bool m_valid;//Usado para verificar se a data é válida ou não
 
 public:
-    void init(Date &dt) //utilizando o conceito de verdadeiro ou falso
+    void init() //utilizando o conceito de verdadeiro ou falso
     {
-        dt.valid = false;
+        m_valid = false;
     }
 
-    void change(Date &dt, int day, int month, int year)//verificando dados validos
+    void change(int day, int month, int year)//verificando dados validos
     {
-        dt.day = day;
-        dt.month = month;
-        dt.year = year;
+        m_day = day;
+        m_month = month;
+        m_year = year;
 
-        if ((dt.day >= 1 && dt.day <= 31) &&
-            (dt.month >= 1 && dt.month <= 12) &&
-            (dt.year >= 1900 && dt.year <= 2100))
+        if ((m_day >= 1 && m_day <= 31) &&
+            (m_month >= 1 && m_month <= 12) &&
+            (m_year >= 1900 && m_year <= 2100))
         {
-            dt.valid = true; //return true;
+            m_valid = true; //return true;
         }
         else{
-            dt.valid = false; //return false;
+            m_valid = false; //return false;
         }
     }
 
-    void print(const Date &dt)//chamando a função Date dt
+    void print()const //chamando a função Date dt
     {
-        if(dt.valid){
-            printf("%02d/%02d/%d\n", dt.day, dt.month, dt.year);//printado data válida ou inválido
+        if(m_valid){
+            printf("%02d/%02d/%d\n", m_day, m_month, m_year);//printado data válida ou inválido
         }else{
             printf("Invalid Date!\n");
         }
@@ -67,10 +67,10 @@ int main()
 {
     Date pgt;
 
-    pgt.print(pgt);
-    //pgt.init(pgt);
-    pgt.change(pgt, 31,01,2101);
-    pgt.print(pgt); //chamando a função printDate
+
+    pgt.init();
+    pgt.change(31,01,2100);
+    pgt.print(); //chamando a função printDate
 
     printf("Size: %llu\n", sizeof(pgt));
 
