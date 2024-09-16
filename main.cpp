@@ -8,7 +8,7 @@ private:
     short m_day;
     short m_month;
     short m_year;
-    bool m_valid = false; /*inicialização de membro in class*/
+    bool m_valid {false}; /*inicialização de membro in class*/
 
 public:
 
@@ -45,9 +45,9 @@ public:
 /*
  *PRINCIPAIS FALTAS/EMULAR DE POO EM C
 
- * 1. Não há como forçar a iniciallização
- * 2. Todas as propriedades das funcções são públicas. OK
- * 3. As funções são como outras quaisquer, funções globais. OK
+ * 1. Não há como forçar a iniciallização - OK
+ * 2. Todas as propriedades das funcções são públicas - OK
+ * 3. As funções são como outras quaisquer, funções globais - OK
  *
  * 4. Repetindo a palavra reservada Struct - OK
  * 5. Usar referencias ao invés de endereço - OK
