@@ -43,7 +43,7 @@ public:
 
 
 /*
- *PRINCIPAIS FALTAS/EMULAR DE POO EM C
+ *PRINCIPAIS PROBLEMAS EM EMULAR POO EM C
 
  * 1. Não há como forçar a iniciallização - OK
  * 2. Todas as propriedades das funcções são públicas - OK
