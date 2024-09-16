@@ -1,0 +1,6 @@
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Date.dir
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/install.dir
+C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/install/local.dir
