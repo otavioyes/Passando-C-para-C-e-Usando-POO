@@ -12,7 +12,7 @@ private:
 
 public:
 
-    void change(int day, int month, int year)//verificando dados validos
+    void change(short day, short month, short year)//verificando dados validos
     {
         m_day = day;
         m_month = month;
@@ -38,24 +38,21 @@ public:
         }
     }
 
+
+    //Date() = default; //C++ 11
+
+
+    Date(){}; //Constructor Default
+
+    //Constructor
+    //  Date(short day, short month, short year)
+    // {
+    //  change(day, month, year);
+    // }
+
 };
 
 
-
-/*
- *PRINCIPAIS PROBLEMAS EM EMULAR POO EM C
-
- * 1. Não há como forçar a iniciallização - OK
- * 2. Todas as propriedades das funcções são públicas - OK
- * 3. As funções são como outras quaisquer, funções globais - OK
- *
- * 4. Repetindo a palavra reservada Struct - OK
- * 5. Usar referencias ao invés de endereço - OK
- * 6. Valid como short ao invés de bool - OK
-
-
-
-*/
 
 
 
@@ -67,7 +64,10 @@ int main()
     pgt.change(31,01,2100);
     pgt.print(); //chamando a função printDate
 
-    printf("Size: %llu\n", sizeof(pgt));
+    //Date pgt2;
+
+    //pgt2.print();
+
 
     return 0;
 }
