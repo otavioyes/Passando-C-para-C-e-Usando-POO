@@ -27,7 +27,7 @@ public:
     Date(short day, short month, short year);
     Date() = default;
 
-    enum { YEAR_MIN = 1900, YEAR_MAX = 1900 };
+    enum { YEAR_MIN = 1900, YEAR_MAX = 2100 };
     enum { FEBRUARY =2, JULY = 7 };
 
 
