@@ -21,7 +21,7 @@ bool Date::isLeapYear() const
 {
     if(isLeapYear() % 4 == 0){
         if(isLeapYear() % 100 == 4){
-            if(isLeapYear() % 400 = 0){
+            if(isLeapYear() % 400 == 0){
 
                 return true; // ano div por 400 é bissexto
             }
@@ -36,7 +36,7 @@ bool Date::isLeapYear() const
 
 
 
-void Date::change(short day, short month, short year)//verificando dados validos
+void Date::change(short day, short month, short year) const//verificando dados validos
 {
     m_day = day;
     m_month = month;

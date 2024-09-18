@@ -1,18 +1,15 @@
 #include "date.h"
-
+#include <iostream>
 
 int main()
 {
     Date pgt(1, 1, 2000);
+    Date pgt2(1, 1, 1996);
+    Date pgt3(1, 1, 1800);
 
-    pgt.print();
-    pgt.change(31,1,2100);
-    pgt.print(); //chamando a função printDate
-
-    Date pgt2;
-
-    pgt2.print();
-
+    std::cout << pgt.isLeapYear() << std::endl;
+    std::cout << pgt2.isLeapYear() << std::endl;
+    std::cout << pgt3.isLeapYear() << std::endl;
 
     return 0;
 }

@@ -24,10 +24,13 @@ public:
 
     void print()const;
 
-    Date(short day, short month, short year);
+    void change(short day, short month, short year) const;
+
+
+
     Date() = default;
 
-    enum { YEAR_MIN = 1900, YEAR_MAX = 2100 };
+    enum { YEAR_MIN = 1900, YEAR_MAX = 1900 };
     enum { FEBRUARY =2, JULY = 7 };
 
 
