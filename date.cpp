@@ -1,10 +1,19 @@
 #include "date.h"
 #include <cstdio>
 
-Date::Date(short day, short month, short year)
+
+
+short Date::lastDayMonth() const
 {
-    change(day, month, year);
+    return 31;
 }
+
+bool Date::isLeapYear() const
+{
+    return false;
+}
+
+
 
 
 void Date::change(short day, short month, short year)//verificando dados validos
@@ -12,16 +21,9 @@ void Date::change(short day, short month, short year)//verificando dados validos
     m_day = day;
     m_month = month;
     m_year = year;
+    m_valid();
 
-    if ((m_day >= 1 && m_day <= 31) &&
-        (m_month >= 1 && m_month <= 12) &&
-        (m_year >= 1900 && m_year <= 2100))
-    {
-        m_valid = true; //return true;
-    }
-    else{
-        m_valid = false; //return false;
-    }
+
 }
 
 void Date::print()const //chamando a função Date dt
