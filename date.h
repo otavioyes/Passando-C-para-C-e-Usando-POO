@@ -3,8 +3,6 @@
 
 class Date //dados que serão setados
 {
-
-private:
     short m_day;
     short m_month;
     short m_year;

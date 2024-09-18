@@ -1,4 +1,10 @@
 #include "date.h"
+#include <cstdio>
+
+Date::Date(short day, short month, short year)
+{
+    change(day, month, year);
+}
 
 
 void Date::change(short day, short month, short year)//verificando dados validos
@@ -18,7 +24,7 @@ void Date::change(short day, short month, short year)//verificando dados validos
     }
 }
 
-void Date::print(short day, short month, short year)const //chamando a função Date dt
+void Date::print()const //chamando a função Date dt
 {
     if(m_valid)
     {
