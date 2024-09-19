@@ -11,9 +11,11 @@ short Date::lastDayOfMonth()const
 
 }
 
+
+
 short Date::compare()
 {
-
+    return compare();
 }
 
 

@@ -22,6 +22,7 @@ public:
                    (m_year >= YEAR_MIN && m_year <= YEAR_MAX));
     }
 
+
     void print()const;
 
     void change(short day, short month, short year);
@@ -42,6 +43,7 @@ public:
         return (!(m_year & 3) && (m_year % 100)) || !(m_year % 400);
     }
 
+    short compare();
 
     short day() const
     {
