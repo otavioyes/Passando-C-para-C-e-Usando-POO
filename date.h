@@ -17,14 +17,14 @@ public:
 
     void validate()
     {
-        m_valid = ((m_day >= 1 && m_day <= lastDayMonth()) &&
+        m_valid = ((m_day >= 1 && m_day <= lastDayOfMonth()) &&
                    (m_month >= 1 && m_month <= 12) &&
                    (m_year >= YEAR_MIN && m_year <= YEAR_MAX));
     }
 
     void print()const;
 
-    void change(short day, short month, short year) const;
+    void change(short day, short month, short year);
 
 
 
@@ -34,9 +34,13 @@ public:
     enum { FEBRUARY =2, JULY = 7 };
 
 
-    short lastDayMonth()const;
+    short lastDayOfMonth()const;
 
-    bool isLeapYear()const;
+
+    bool isLeapYear()const
+    {
+        return (!(m_year & 3) && (m_year % 100)) || !(m_year % 400);
+    }
 
 
     short day() const

@@ -1,6 +1,9 @@
 #include "date.h"
 #include <iostream>
 
+//É possível fazer resto da divisão com &, mas só funciona em potencia de 2
+//A regra é n-1
+
 int main()
 {
     Date pgt(1, 1, 2000);
