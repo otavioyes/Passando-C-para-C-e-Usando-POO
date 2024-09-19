@@ -6,8 +6,13 @@
 short Date::lastDayOfMonth()const
 {
     return m_month != FEBRUARY ?
-               (30 + (m_month & 1) ^ (m_month > JULY)) :
-               (28 + isLeapYear());
+            (30 + (m_month & 1) ^ (m_month > JULY)) :
+            (28 + isLeapYear());
+
+}
+
+short Date::compare()
+{
 
 }
 
