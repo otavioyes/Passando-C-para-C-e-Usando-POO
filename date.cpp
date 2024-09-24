@@ -1,5 +1,5 @@
 #include "date.h"
-#include <cstdio>
+#include <iostream>
 
 
 
@@ -13,9 +13,12 @@ short Date::lastDayOfMonth()const
 
 
 
-short Date::compare()
+int Date::compare(const Date &other) const
 {
-    return compare();
+    if (m_year != other.m_year)
+        return m_year - other.m_year;
+
+    return m_month != other.m_month ? m_month - other.m_month : m_day - other.m_day;
 }
 
 
