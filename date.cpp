@@ -1,5 +1,5 @@
 #include "date.h"
-#include <iostream>
+#include <cstdio>
 
 
 

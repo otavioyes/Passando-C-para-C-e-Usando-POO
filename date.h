@@ -43,7 +43,7 @@ public:
         return (!(m_year & 3) && (m_year % 100)) || !(m_year % 400);
     }
 
-    short compare();
+    int compare(const Date &other) const;
 
     short day() const
     {
