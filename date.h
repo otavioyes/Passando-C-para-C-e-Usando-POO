@@ -60,7 +60,7 @@ public:
         return m_year;
     }
 
-    bool operator< (const Date &other) const
+    bool operator> (const Date &other) const
     {
         return compare (other) > 0;
     }
