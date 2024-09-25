@@ -43,7 +43,6 @@ public:
         return (!(m_year & 3) && (m_year % 100)) || !(m_year % 400);
     }
 
-    int compare(const Date &other) const;
 
     short day() const
     {
@@ -60,10 +59,7 @@ public:
         return m_year;
     }
 
-    bool operator> (const Date &other) const
-    {
-        return compare (other) > 0;
-    }
+    auto operator
 
 
     bool operator== (const Date &other) const
@@ -71,20 +67,7 @@ public:
         return compare (other) == 0;
     }
 
-    bool operator>= (const Date &other) const
-    {
-        return compare (other) >= 0;
-    }
 
-    bool operator<= (const Date &other) const
-    {
-        return compare (other) <= 0;
-    }
-
-    bool operator!= (const Date &other) const
-    {
-        return compare (other) != 0;
-    }
 
 };
 

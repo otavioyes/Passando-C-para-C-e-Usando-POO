@@ -12,17 +12,6 @@ short Date::lastDayOfMonth()const
 }
 
 
-
-int Date::compare(const Date &other) const
-{
-    if (m_year != other.m_year)
-        return m_year - other.m_year;
-
-    return m_month != other.m_month ? m_month - other.m_month : m_day - other.m_day;
-}
-
-
-
 void Date::change(short day, short month, short year)//verificando dados validos
 {
     m_day = day;

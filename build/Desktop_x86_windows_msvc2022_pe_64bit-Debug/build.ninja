@@ -50,14 +50,14 @@ cmake_ninja_workdir = C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Da
 build cmake_object_order_depends_target_Date: phony || .
 
 build CMakeFiles\Date.dir\main.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\main.cpp || cmake_object_order_depends_target_Date
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
   OBJECT_DIR = CMakeFiles\Date.dir
   OBJECT_FILE_DIR = CMakeFiles\Date.dir
   TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
   TARGET_PDB = Date.pdb
 
 build CMakeFiles\Date.dir\date.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\date.cpp || cmake_object_order_depends_target_Date
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
   OBJECT_DIR = CMakeFiles\Date.dir
   OBJECT_FILE_DIR = CMakeFiles\Date.dir
   TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
