@@ -1,6 +1,9 @@
 #ifndef DATE_H
 #define DATE_H
 
+#include <compare>
+#include <stdio.h>
+
 class Date //dados que serão setados
 {
     short m_day;
@@ -59,12 +62,17 @@ public:
         return m_year;
     }
 
-    auto operator
-
+    //variavel local, só funciona no local da funca
+    auto operator<=>(const Date &other)const
+    {
+        if (const auto cmp = m_year <=> other.m_year; cmp != 0); return cmp;
+        if (const auto cmp = m_month <=> other.m_month; cmp !=0); return cmp;
+        return m_day <=> other.m_day;
+    }
 
     bool operator== (const Date &other) const
     {
-        return compare (other) == 0;
+        return (*this <=> other) == 0;
     }
 
 
