@@ -1,8 +1,9 @@
 #ifndef DATE_H
 #define DATE_H
 
+#include <print>
 #include <compare>
-#include <stdio.h>
+
 
 class Date //dados que serão setados
 {
@@ -26,19 +27,46 @@ public:
     }
 
 
-    void print()const;
-
-    void change(short day, short month, short year);
-
-
 
     Date() = default;
 
-    enum { YEAR_MIN = 1900, YEAR_MAX = 1900 };
+    enum { YEAR_MIN = 1900, YEAR_MAX = 2100 };
     enum { FEBRUARY =2, JULY = 7 };
 
 
-    short lastDayOfMonth()const;
+    short lastDayOfMonth()const
+    {
+        return m_month != FEBRUARY ?
+                   (30 + (m_month & 1) ^ (m_month > JULY)) :
+                   (28 + isLeapYear());
+
+    }
+
+
+    void change(short day, short month, short year)//verificando dados validos
+    {
+        m_day = day;
+        m_month = month;
+        m_year = year;
+        validate();
+
+
+    }
+
+    void print()const //chamando a função Date dt
+    {
+        if(m_valid)
+        {
+            std::println("{:02}/{:02}/{}", m_day, m_month, m_year);
+
+        }
+        else
+        {
+            std::println ("Invalid Date!");
+        }
+    }
+
+
 
 
     bool isLeapYear()const
