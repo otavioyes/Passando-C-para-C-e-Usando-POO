@@ -1,5 +1,5 @@
 #include "date.h"
-#include <iostream>
+#include <print>
 
 
 
@@ -26,16 +26,12 @@ void Date::print()const //chamando a função Date dt
 {
     if(m_valid)
     {
-        std::cout.fill('0');
-        std::cout.width(2);
-        std::cout << m_day << '/';
-        std::cout.width(2);
-        std::cout << m_month << '/' << m_year << std::endl;
+        std::println("{:02}/{:02}/{}", m_day, m_month, m_year);
 
     }
     else
     {
-        std::cout << "Invalid Date!\n";
+        std::println ("Invalid Date!");
     }
 }
 

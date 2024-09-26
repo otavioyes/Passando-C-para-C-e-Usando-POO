@@ -50,14 +50,7 @@ cmake_ninja_workdir = C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Da
 build cmake_object_order_depends_target_Date: phony || .
 
 build CMakeFiles\Date.dir\main.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\main.cpp || cmake_object_order_depends_target_Date
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
-  OBJECT_DIR = CMakeFiles\Date.dir
-  OBJECT_FILE_DIR = CMakeFiles\Date.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
-  TARGET_PDB = Date.pdb
-
-build CMakeFiles\Date.dir\date.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\date.cpp || cmake_object_order_depends_target_Date
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd
   OBJECT_DIR = CMakeFiles\Date.dir
   OBJECT_FILE_DIR = CMakeFiles\Date.dir
   TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
@@ -71,7 +64,7 @@ build CMakeFiles\Date.dir\date.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\U
 #############################################
 # Link the executable Date.exe
 
-build Date.exe: CXX_EXECUTABLE_LINKER__Date_Debug CMakeFiles\Date.dir\main.cpp.obj CMakeFiles\Date.dir\date.cpp.obj
+build Date.exe: CXX_EXECUTABLE_LINKER__Date_Debug CMakeFiles\Date.dir\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

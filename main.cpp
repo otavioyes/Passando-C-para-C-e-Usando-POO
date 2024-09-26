@@ -6,11 +6,10 @@
 
 int main()
 {
-    Date d1(1, 1, 2000), d2(1, 1, 1999);
+    Date d1(01, 01, 2000), d2(12, 12, 1999);
+    d1.print();
 
-    // int a = 10, b = 100;
 
-    // auto cmp = a <=> b;
 
     if (d1 > d2) std::cout << "d1 > d2\n";
     if (d1 >= d2) std::cout << "d1 >= d2\n";
