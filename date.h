@@ -65,12 +65,13 @@ public:
     //variavel local, só funciona no local da funca
     auto operator<=>(const Date &other)const
     {
-        if (const auto cmp = m_year <=> other.m_year; cmp != 0); return cmp;
-        if (const auto cmp = m_month <=> other.m_month; cmp !=0); return cmp;
+        if (const auto cmp = m_year <=> other.m_year; cmp != 0) return cmp;
+        if (const auto cmp = m_month <=> other.m_month; cmp !=0) return cmp;
         return m_day <=> other.m_day;
     }
 
-    bool operator== (const Date &other) const
+
+    bool operator==(const Date &other) const
     {
         return (*this <=> other) == 0;
     }
