@@ -1,0 +1,3 @@
+-interface
+-ifcOutput CMakeFiles\Date.dir\date.ifc
+-reference std=CMakeFiles\Date.dir\std.ifc

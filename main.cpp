@@ -1,5 +1,4 @@
-#include "date.h"
-#include <iostream>
+import date;
 
 //É possível fazer resto da divisão com &, mas só funciona em potencia de 2
 //A regra é n-1

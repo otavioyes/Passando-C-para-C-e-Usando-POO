@@ -1,0 +1,43 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/Data.dir/bin/std.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/bin",
+			"source" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/bin/std.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PRIVATE"
+		},
+		"CMakeFiles/Data.dir/date.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "CXX_MODULES",
+			"relative-directory" : "",
+			"source" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/date.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PRIVATE"
+		}
+	},
+	"dir-cur-bld" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug",
+	"dir-cur-src" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date",
+	"dir-top-bld" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug",
+	"dir-top-src" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"bin"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Data.dir"
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Date.dir\\bin\\std.ixx.obj",
+            "outputs": [
+                "C:\\Users\\sdbar\\OneDrive\\Documentos\\workspace\\Qtcreator\\Date\\build\\Desktop_x86_windows_msvc2022_pe_64bit-Debug\\vc140.pdb",
+                "CMakeFiles\\Date.dir\\bin\\std.ixx.obj.ddi",
+                "std.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std",
+                    "source-path": "c:\\users\\sdbar\\onedrive\\documentos\\workspace\\qtcreator\\date\\build\\desktop_x86_windows_msvc2022_pe_64bit-debug\\bin\\std.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

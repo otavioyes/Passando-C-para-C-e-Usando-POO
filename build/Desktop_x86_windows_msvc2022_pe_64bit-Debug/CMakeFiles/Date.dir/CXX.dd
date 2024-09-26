@@ -1,0 +1,9 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\Date.dir\main.cpp.obj: dyndep | CMakeFiles\Date.dir\date.ifc
+
+build CMakeFiles\Date.dir\bin\std.ixx.obj | CMakeFiles\Date.dir\std.ifc: dyndep
+  restat = 1
+
+build CMakeFiles\Date.dir\date.ixx.obj | CMakeFiles\Date.dir\date.ifc: dyndep | CMakeFiles\Date.dir\std.ifc
+  restat = 1
+

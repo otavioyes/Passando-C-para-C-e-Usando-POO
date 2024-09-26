@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Date.dir\\date.ixx.obj",
+            "outputs": [
+                "C:\\Users\\sdbar\\OneDrive\\Documentos\\workspace\\Qtcreator\\Date\\build\\Desktop_x86_windows_msvc2022_pe_64bit-Debug\\vc140.pdb",
+                "CMakeFiles\\Date.dir\\date.ixx.obj.ddi",
+                "date.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "date",
+                    "source-path": "c:\\users\\sdbar\\onedrive\\documentos\\workspace\\qtcreator\\date\\date.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "std"
+                }
+            ]
+        }
+    ]
+}

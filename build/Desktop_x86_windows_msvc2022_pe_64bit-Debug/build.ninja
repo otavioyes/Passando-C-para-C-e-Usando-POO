@@ -49,12 +49,61 @@ cmake_ninja_workdir = C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Da
 
 build cmake_object_order_depends_target_Date: phony || .
 
-build CMakeFiles\Date.dir\main.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\main.cpp || cmake_object_order_depends_target_Date
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd
+build CMakeFiles\Date.dir\main.cpp.obj.ddi: CXX_SCAN__Date_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\main.cpp || cmake_object_order_depends_target_Date
+  DEP_FILE = CMakeFiles\Date.dir\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Date.dir\main.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
+  OBJ_FILE = CMakeFiles\Date.dir\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Date.dir\main.cpp.obj.ddi.i
+
+build CMakeFiles\Date.dir\main.cpp.obj: CXX_COMPILER__Date_scanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\main.cpp | CMakeFiles\Date.dir\main.cpp.obj.modmap || cmake_object_order_depends_target_Date CMakeFiles\Date.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Date.dir\main.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
   OBJECT_DIR = CMakeFiles\Date.dir
   OBJECT_FILE_DIR = CMakeFiles\Date.dir
   TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
   TARGET_PDB = Date.pdb
+  dyndep = CMakeFiles/Date.dir/CXX.dd
+
+build CMakeFiles\Date.dir\bin\std.ixx.obj.ddi: CXX_SCAN__Date_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin\std.ixx || cmake_object_order_depends_target_Date
+  DEP_FILE = CMakeFiles\Date.dir\bin\std.ixx.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Date.dir\bin\std.ixx.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
+  OBJ_FILE = CMakeFiles\Date.dir\bin\std.ixx.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Date.dir\bin\std.ixx.obj.ddi.i
+
+build CMakeFiles\Date.dir\bin\std.ixx.obj: CXX_COMPILER__Date_scanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin\std.ixx | CMakeFiles\Date.dir\bin\std.ixx.obj.modmap || cmake_object_order_depends_target_Date CMakeFiles\Date.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Date.dir\bin\std.ixx.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
+  OBJECT_DIR = CMakeFiles\Date.dir
+  OBJECT_FILE_DIR = CMakeFiles\Date.dir\bin
+  TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
+  TARGET_PDB = Date.pdb
+  dyndep = CMakeFiles/Date.dir/CXX.dd
+
+build CMakeFiles\Date.dir\date.ixx.obj.ddi: CXX_SCAN__Date_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\date.ixx || cmake_object_order_depends_target_Date
+  DEP_FILE = CMakeFiles\Date.dir\date.ixx.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\Date.dir\date.ixx.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
+  OBJ_FILE = CMakeFiles\Date.dir\date.ixx.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\Date.dir\date.ixx.obj.ddi.i
+
+build CMakeFiles\Date.dir\date.ixx.obj: CXX_COMPILER__Date_scanned_Debug C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\date.ixx | CMakeFiles\Date.dir\date.ixx.obj.modmap || cmake_object_order_depends_target_Date CMakeFiles\Date.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\Date.dir\date.ixx.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\bin
+  OBJECT_DIR = CMakeFiles\Date.dir
+  OBJECT_FILE_DIR = CMakeFiles\Date.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Date.dir\
+  TARGET_PDB = Date.pdb
+  dyndep = CMakeFiles/Date.dir/CXX.dd
+
+build CMakeFiles\Date.dir\CXX.dd | C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\CMakeFiles\Date.dir\CXXModules.json CMakeFiles\Date.dir\main.cpp.obj.modmap CMakeFiles\Date.dir\bin\std.ixx.obj.modmap CMakeFiles\Date.dir\date.ixx.obj.modmap: CXX_DYNDEP__Date_Debug CMakeFiles\Date.dir\main.cpp.obj.ddi CMakeFiles\Date.dir\bin\std.ixx.obj.ddi CMakeFiles\Date.dir\date.ixx.obj.ddi | C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug\CMakeFiles\Date.dir\CXXDependInfo.json
 
 
 # =============================================================================
@@ -64,8 +113,8 @@ build CMakeFiles\Date.dir\main.cpp.obj: CXX_COMPILER__Date_unscanned_Debug C$:\U
 #############################################
 # Link the executable Date.exe
 
-build Date.exe: CXX_EXECUTABLE_LINKER__Date_Debug CMakeFiles\Date.dir\main.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+build Date.exe: CXX_EXECUTABLE_LINKER__Date_Debug CMakeFiles\Date.dir\main.cpp.obj CMakeFiles\Date.dir\bin\std.ixx.obj CMakeFiles\Date.dir\date.ixx.obj
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\Date.dir
@@ -100,36 +149,6 @@ build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
-
-#############################################
-# Utility command for list_install_components
-
-build list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build CMakeFiles\install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build install: phony CMakeFiles\install.util
-
-
-#############################################
-# Utility command for install/local
-
-build CMakeFiles\install\local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build install\local: phony CMakeFiles\install\local.util
-
 # =============================================================================
 # Target aliases.
 
@@ -152,14 +171,14 @@ build all: phony Date.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | .qtc\package-manager\auto-setup.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.3\CMakeCXXCompiler.cmake CMakeFiles\3.29.3\CMakeRCCompiler.cmake CMakeFiles\3.29.3\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | .qtc\package-manager\auto-setup.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.3\CMakeCXXCompiler.cmake CMakeFiles\3.29.3\CMakeRCCompiler.cmake CMakeFiles\3.29.3\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build .qtc\package-manager\auto-setup.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\GNUInstallDirs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.3\CMakeCXXCompiler.cmake CMakeFiles\3.29.3\CMakeRCCompiler.cmake CMakeFiles\3.29.3\CMakeSystem.cmake: phony
+build .qtc\package-manager\auto-setup.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeRCInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows.cmake C$:\Qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake C$:\Users\sdbar\OneDrive\Documentos\workspace\Qtcreator\Date\CMakeLists.txt CMakeCache.txt CMakeFiles\3.29.3\CMakeCXXCompiler.cmake CMakeFiles\3.29.3\CMakeRCCompiler.cmake CMakeFiles\3.29.3\CMakeSystem.cmake: phony
 
 
 #############################################

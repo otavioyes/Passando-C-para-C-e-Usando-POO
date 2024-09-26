@@ -1,0 +1,35 @@
+{
+	"modules" : 
+	{
+		"date" : 
+		{
+			"bmi" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Data.dir/date.ifc",
+			"is-private" : true
+		},
+		"std" : 
+		{
+			"bmi" : "C:/Users/sdbar/OneDrive/Documentos/workspace/Qtcreator/Date/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Data.dir/std.ifc",
+			"is-private" : true
+		}
+	},
+	"references" : 
+	{
+		"date" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles\\Data.dir\\date.ifc"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles\\Data.dir\\std.ifc"
+		}
+	},
+	"usages" : 
+	{
+		"date" : 
+		[
+			"std"
+		]
+	}
+}
