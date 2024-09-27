@@ -2,12 +2,14 @@ export module date;
 
 import std;
 
+//Finalizado.
+
 #include <cstdint>
 
 
 export class Date
 {
-     bool m_valid : 1 {false}; //bit
+    bool m_valid : 1 {false}; //bit
     uint8_t m_day : 7; // gaste somente 7 bits
     uint8_t m_month;
     uint16_t m_year;
