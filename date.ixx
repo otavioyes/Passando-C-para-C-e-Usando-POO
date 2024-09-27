@@ -2,6 +2,8 @@ export module date;
 
 import std;
 
+#include <cstdint>
+
 
 export class Date
 {
@@ -12,7 +14,7 @@ export class Date
 
 public:
 
-    Date(short day, short month, short year)
+    Date(uint8_t day, uint8_t month, uint16_t year)
     {
         change(day, month, year);
     }
@@ -32,7 +34,7 @@ public:
     enum { FEBRUARY =2, JULY = 7 };
 
 
-    short lastDayOfMonth()const
+    uint8_t lastDayOfMonth()const
     {
         return m_month != FEBRUARY ?
                    (30 + (m_month & 1) ^ (m_month > JULY)) :
@@ -41,7 +43,7 @@ public:
     }
 
 
-    void change(short day, short month, short year)//verificando dados validos
+    void change(uint8_t day, uint8_t month, uint16_t year)//verificando dados validos
     {
         m_day = day;
         m_month = month;
@@ -73,17 +75,17 @@ public:
     }
 
 
-    short day() const
+    uint8_t day() const
     {
         return m_day;
     }
 
-    short month() const
+    uint8_t month() const
     {
         return m_month;
     }
 
-    short year() const
+    uint16_t year() const
     {
         return m_year;
     }
