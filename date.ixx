@@ -7,10 +7,11 @@ import std;
 
 export class Date
 {
-    uint8_t m_day; // vai de 0 até 255
+     bool m_valid : 1 {false}; //bit
+    uint8_t m_day : 7; // gaste somente 7 bits
     uint8_t m_month;
     uint16_t m_year;
-    bool m_valid {false};
+
 
 public:
 
