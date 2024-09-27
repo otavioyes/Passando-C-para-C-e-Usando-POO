@@ -5,9 +5,9 @@ import std;
 
 export class Date
 {
-    short m_day;
-    short m_month;
-    short m_year;
+    uint8_t m_day; // vai de 0 até 255
+    uint8_t m_month;
+    uint16_t m_year;
     bool m_valid {false};
 
 public:

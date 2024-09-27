@@ -5,19 +5,10 @@ import date;
 
 int main()
 {
-    Date d1(01, 01, 2000), d2(1, 1, 1999);
+    Date d1(11, 12, 2000), d2(1, 1, 1999);
     d1.print();
 
-
-
-    if (d1 > d2) std::cout << "d1 > d2\n";
-    if (d1 >= d2) std::cout << "d1 >= d2\n";
-    if (d1 != d2) std::cout << "d1 != d2\n";
-    d2.change(1, 1, 2000);
-    if(d1 == d2) std::cout << "d1 == d2\n";
-    d2.change(31, 1, 2000);
-    if (d1 < d2) std::cout << "d1 < d2\n";
-    if (d1 <= d2) std::cout << "d1 <= d2\n";
+    std::cout << sizeof(d1) << '\n';
 
     return 0;
 }
